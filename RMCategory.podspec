@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RMCategory"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "RM Category"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  通过obj添加category方法
+  			通过obj添加category方法
                    DESC
 
   s.homepage     = "https://github.com/bruce107/RMCategory"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/bruce107/RMCategory.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/bruce107/RMCategory.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
