@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "RMCategory"
   s.version      = "0.0.1"
-  s.summary      = "RM Category."
+  s.summary      = "RM Category"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "10.0"
+  s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "RMCategory", "RMCategory/RMCategory/RMCategory/*.{h,m}"
+  s.source_files  = "RMCategory/RMCategory", "RMCategory/*.{h,m}"
   # s.exclude_files = "RMCategory/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
