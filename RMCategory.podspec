@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/bruce107/RMCategory' //主页
   s.author   = { 'bruce' => 'bruceyoung107@gmail.com' } //作者
   s.source   = { :git => 'https://github.com/bruce107/RMCategory.git', :tag => "0.0.1" } //git路径、指定tag号
-  s.platform = :ios, "10.0"
-  s.source_files = 'RMCategory/RMCategory/*.{h,m}'  //库的源代码文件  
+  s.platform = :ios
+  s.source_files = "RMCategory", "RMCategory/RMCategory/*.{h,m}"''  //库的源代码文件  
   s.description  = <<-DESC
-		category
+		11category
                    DESC
   s.requires_arc = true
 end
