@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "RMCategory/RMCategory", "RMCategory/*.{h,m}"
-  s.exclude_files = "RMCategory/Exclude"
+  # s.exclude_files = "RMCategory/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
